@@ -70,9 +70,16 @@ Compositing a rug into a room photo involves multiple technical hurdles:
 ---
 
 ## How to Run the Jupyter Notebooks for the Project
-1. Place room and rug images into `Input_Images/`.
-2. Open `rug-insertion-image-lowres.ipynb` (for a quick run) or `high-resolution-rug-insertion-image.ipynb` (for the full pipeline).
-3. Run all cells; composites will appear in `output_images/`.
+1. Ensure that you are working in a Kaggle Environment.
+2. Upload Pictures of Desired Room and Rug Images.
+3. You can then open either of the Notebooks and replace the paths of room and rug in each cell before running
+5. Changing the path of Images to exact path of the Images in your Kaggle Environment is Necessary, without which, the system will NOT run.
+6. You can select either of the Notebooks, both of the exact same, the only difference being that one deals with an example of a High Resolution Image whereas the other with a Low Resolution Image.
+7. Remember to Switch on GPU
+8. At a moment in the Notebook, the segments of the Image will be Numbered. You need to note those Number down, which corrsponds to the carpet area and which to the things on top it or obstructing it.
+9. After that in the next cell, you have to feed the numbers to the floor_segments and occulsion_Segments ID section. [This has to be done with utter care and precision]
+10. If all the steps are followed very thoroughly, the notebook will work as intended with proper segmentation and Rug Insertion.
+
 
 This project is fully compatible with Kaggle environments, which already include OpenCV, NumPy, and Matplotlib.
 
