@@ -1,9 +1,3 @@
-Got it. I’ll draft you a **highly professional, descriptive, and technical README** that you can directly copy-paste into your repo. It will cover the **idea, methods, directory structure, usage, and analysis** in a way that feels like a research-grade project.
-
-Here’s the proposed README content:
-
----
-
 # AI-Powered-Interior-Visualization-Toolkit
 
 This repository contains an AI-driven prototype for realistic rug placement in interior images. The project demonstrates how computer vision techniques can be combined to achieve seamless rug integration into room photographs for interior visualization. The goal is to simulate realistic placement of rugs with proper scale, perspective alignment, and visual blending with existing room elements.
