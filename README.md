@@ -11,7 +11,7 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 * [Repository Structure](#repository-structure)
 * [Quickstart (Kaggle‑Friendly)](#quickstart-kagglefriendly)
 * [Pipeline](#pipeline)
-* [Results Gallery](#results-gallery)
+* [ Gallery](#results-gallery)
 * [Design Principles & Methodology](#design-principles--methodology)
 * [Evaluation](#evaluation)
 * [Limitations](#limitations)
@@ -117,12 +117,21 @@ A blurred offset of the rug mask produces soft shadows. Foreground occluder mask
 <td><img src="Input_Images/LivingRoom1.jpeg" width="100%" alt="Living room input"><br><sub>Room</sub></td>
 <td><img src="output_images/LivingRoom1_result.jpg" width="100%" alt="Living room with rug"><br><sub>Composite</sub></td>
 </tr>
-<tr>
-<td colspan="2"><img src="Input_Images/Room%20Segment.png" width="70%" alt="Segmentation example"><br><sub>Segmentation Mask Example</sub></td>
-</tr>
 </table>
 
----
+<p align="center">
+  <img src="Input_Images/Room%20Segment.png" width="60%" alt="Floor (Green) and Occluder (Red) masks"><br>
+  <sub>Segmentation / Mask Example</sub>
+</p>
+
+> For large assets, consider enabling Git LFS:
+>
+> ```bash
+> git lfs install
+> git lfs track "*.png" "*.jpg" "*.jpeg"
+> git add .gitattributes
+> ```
+
 
 ## Design Principles & Methodology
 
