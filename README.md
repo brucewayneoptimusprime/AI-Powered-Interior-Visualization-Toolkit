@@ -204,11 +204,6 @@ Final composites are written to `output_images/`. Filenames encode room and rug 
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="output_images/Colour Harmonized.png" width="100%" alt="rug3.jpg"><br>
-      <sub>rug3.jpg</sub>
-    </td>
-    <td align="center">
       <!-- Add more inputs here: copy a <td> block and change src/label -->
     </td>
   </tr>
