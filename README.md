@@ -9,7 +9,7 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 * [Overview](#overview)
 * [Challenges](#Challenges)
 * [Repository Structure](#repository-structure)
-* [How to Run the Jupyter Notebooks for the Project](#How-to-Run-the-Jupyter-Notebooks-for-the-Project-(Kaggle‑Supported))
+* [How to Run the Jupyter Notebooks for the Project](#How-to-Run-the-Jupyter-Notebooks-for-the-Project)
 * [Pipeline](#pipeline)
 * [Results Gallery](#results-gallery)
 * [Design Principles & Methodology](#design-principles--methodology)
@@ -69,7 +69,7 @@ Compositing a rug into a room photo involves multiple technical hurdles:
 
 ---
 
-## How to Run the Jupyter Notebooks for the Project (Kaggle‑Supported)
+## How to Run the Jupyter Notebooks for the Project
 1. Place room and rug images into `Input_Images/`.
 2. Open `rug-insertion-image-lowres.ipynb` (for a quick run) or `high-resolution-rug-insertion-image.ipynb` (for the full pipeline).
 3. Run all cells; composites will appear in `output_images/`.
