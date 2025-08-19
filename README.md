@@ -15,7 +15,7 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 * [Design Principles & Methodology](#design-principles--methodology)
 * [Evaluation](#evaluation)
 * [Limitations](#limitations)
-* [Roadmap](#roadmap)
+* [Future Roadmap](#Future-Roadmap)
 * [Reproducibility](#reproducibility)
 * [Acknowledgements & References](#acknowledgements--references)
 * [License](#license)
@@ -238,7 +238,6 @@ Evaluation combines quantitative and qualitative assessments:
 
 * **Boundary Continuity.** Gradient continuity across rug edges is checked to ensure seamless blending.
 * **Perceptual Metrics.** SSIM and LPIPS quantify realism compared to references.
-* **Human Study.** Users score composites on realism (1–5) with focus on lighting, boundaries, and rug integration.
 
 ---
 
@@ -250,7 +249,7 @@ Evaluation combines quantitative and qualitative assessments:
 
 ---
 
-## Roadmap
+## Future Roadmap
 
 * Interactive segmentation editor with click‑based UI.
 * Automatic vanishing point detection for robust perspective estimation.
