@@ -183,31 +183,39 @@ Final composites are written to `output_images/`. Filenames encode room and rug 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="output_images/Colour Harmonized.png" width="100%" alt="DiningRoom1_result"><br>
-      <sub>DiningRoom1_result.jpg</sub>
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="DiningRoom1"><br>
+      <sub>DiningRoom1.jpeg</sub>
     </td>
     <td align="center" width="33%">
-      <img src="output_images/Initial Fit.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="LivingRoom1"><br>
+      <sub>LivingRoom1.jpeg</sub>
     </td>
     <td align="center" width="33%">
-      <img src="output_images/Initial Fit.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="Room Segment"><br>
+      <sub>Room&nbsp;Segment.png</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="output_images/Room and rug.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="images.jpg"><br>
+      <sub>images.jpg</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="output_images/SAM Segmentation.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
-    <td align="center" width="33%">
-      <img src="output_images/Segmented Room.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
-    <td align="center" width="33%">
-      <img src="output_images/segment mask IDs.png" width="100%" alt="LivingRoom1_result"><br>
-      <sub>LivingRoom1_result.jpg</sub>
+    <td align="center">
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="rug.jpg"><br>
+      <sub>rug.jpg</sub>
     </td>
+    <td align="center">
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="rug1.jpg"><br>
+      <sub>rug1.jpg</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="rug3.jpg"><br>
+      <sub>rug3.jpg</sub>
+    </td>
+    <td align="center">
+      <!-- Add more inputs here: copy a <td> block and change src/label -->
     </td>
   </tr>
 </table>
