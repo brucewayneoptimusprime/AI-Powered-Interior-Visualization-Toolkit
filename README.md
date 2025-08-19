@@ -27,9 +27,9 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 This repository provides a complete pipeline for inserting rug designs into interior photographs with realism. The challenge of rug compositing is not simply pasting an image; it requires respecting geometry, lighting, and scene context. Each stage of the pipeline is modular so components (segmentation, blending, lighting) can be swapped or improved independently.
 
 <p align="center">
-  <img src="Input_Images/LivingRoom1.jpeg" width="32%" alt="Room input">
-  <img src="Input_Images/Room%20Segment.png" width="32%" alt="Segmentation mask">
-  <img src="output_images/LivingRoom1_result.jpg" width="32%" alt="Final composite">
+  <img src="Input_Images/Room Segment.png" width="32%" alt="Room input">
+  <img src="output_images/SAM Segmentation.png" width="32%" alt="Final composite">
+  <img src="output_images/Colour Harmonized.png" width="32%" alt="Final composite">
 </p>
 
 The three images above summarize the workflow: the original room photo, the segmentation of the floor and occluders, and the final rug insertion. This pipeline is designed to handle not only geometric alignment but also photometric consistency and depth layering, making outputs suitable for realistic design visualization.
