@@ -136,33 +136,66 @@ Final composites are written to `output_images/`. Filenames encode room and rug 
 ---
 ## Results Gallery
 
+### Input Images
 <table>
   <tr>
-    <td align="center">
-      <img src="Input_Images/DiningRoom1.jpeg" width="95%" alt="Dining room input"><br>
-      <sub>Dining Room — Original</sub>
+    <td align="center" width="33%">
+      <img src="Input_Images/DiningRoom1.jpeg" width="100%" alt="DiningRoom1"><br>
+      <sub>DiningRoom1.jpeg</sub>
     </td>
-    <td align="center">
-      <img src="output_images/DiningRoom1_result.jpg" width="95%" alt="Dining room with rug"><br>
-      <sub>Dining Room — With Rug</sub>
+    <td align="center" width="33%">
+      <img src="Input_Images/LivingRoom1.jpeg" width="100%" alt="LivingRoom1"><br>
+      <sub>LivingRoom1.jpeg</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="Input_Images/Room%20Segment.png" width="100%" alt="Room Segment"><br>
+      <sub>Room&nbsp;Segment.png</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Input_Images/LivingRoom1.jpeg" width="95%" alt="Living room input"><br>
-      <sub>Living Room — Original</sub>
+      <img src="Input_Images/images.jpg" width="100%" alt="images.jpg"><br>
+      <sub>images.jpg</sub>
     </td>
     <td align="center">
-      <img src="output_images/LivingRoom1_result.jpg" width="95%" alt="Living room with rug"><br>
-      <sub>Living Room — With Rug</sub>
+      <img src="Input_Images/rug.jpg" width="100%" alt="rug.jpg"><br>
+      <sub>rug.jpg</sub>
+    </td>
+    <td align="center">
+      <img src="Input_Images/rug1.jpg" width="100%" alt="rug1.jpg"><br>
+      <sub>rug1.jpg</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Input_Images/rug3.jpg" width="100%" alt="rug3.jpg"><br>
+      <sub>rug3.jpg</sub>
+    </td>
+    <td align="center">
+      <!-- Add more inputs here: copy a <td> block and change src/label -->
+    </td>
+    <td align="center">
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <img src="Input_Images/Room%20Segment.png" width="60%" alt="Segmentation example"><br>
-  <sub>Segmentation Example — Floor (green) and Occluders (red)</sub>
-</p>
+### Output Images
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="output_images/DiningRoom1_result.jpg" width="100%" alt="DiningRoom1_result"><br>
+      <sub>DiningRoom1_result.jpg</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="output_images/LivingRoom1_result.jpg" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    </td>
+    <td align="center" width="33%">
+      <!-- Add more outputs here -->
+    </td>
+  </tr>
+</table>
+
 
 
 ## Design Principles & Methodology
