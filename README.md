@@ -134,26 +134,36 @@ Foreground masks (beds, sofas) are reapplied after rug compositing. This enforce
 Final composites are written to `output_images/`. Filenames encode room and rug identifiers for traceability.
 
 ---
-
 ## Results Gallery
 
 <table>
-<tr>
-<td><img src="Input_Images/DiningRoom1.jpeg" width="100%" alt="Dining room input"><br><sub>Original Room</sub></td>
-<td><img src="output_images/DiningRoom1_result.jpg" width="100%" alt="Dining room with rug"><br><sub>Composite with Rug</sub></td>
-</tr>
-<tr>
-<td><img src="Input_Images/LivingRoom1.jpeg" width="100%" alt="Living room input"><br><sub>Original Room</sub></td>
-<td><img src="output_images/LivingRoom1_result.jpg" width="100%" alt="Living room with rug"><br><sub>Composite with Rug</sub></td>
-</tr>
+  <tr>
+    <td align="center">
+      <img src="Input_Images/DiningRoom1.jpeg" width="95%" alt="Dining room input"><br>
+      <sub>Dining Room — Original</sub>
+    </td>
+    <td align="center">
+      <img src="output_images/DiningRoom1_result.jpg" width="95%" alt="Dining room with rug"><br>
+      <sub>Dining Room — With Rug</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Input_Images/LivingRoom1.jpeg" width="95%" alt="Living room input"><br>
+      <sub>Living Room — Original</sub>
+    </td>
+    <td align="center">
+      <img src="output_images/LivingRoom1_result.jpg" width="95%" alt="Living room with rug"><br>
+      <sub>Living Room — With Rug</sub>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  <img src="Input_Images/Room%20Segment.png" width="65%" alt="Segmentation example"><br>
-  <sub>Segmentation Example: floor (green) and occluders (red)</sub>
+  <img src="Input_Images/Room%20Segment.png" width="60%" alt="Segmentation example"><br>
+  <sub>Segmentation Example — Floor (green) and Occluders (red)</sub>
 </p>
 
----
 
 ## Design Principles & Methodology
 
