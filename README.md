@@ -9,7 +9,7 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 * [Overview](#overview)
 * [Challenges](#Challenges)
 * [Repository Structure](#repository-structure)
-* [How to Run the Jupyter Notebooks for the Project](#How-to-Run-the-Jupyter-Notebooks-for-the-Project (Kaggle‑Supported))
+* [How to Run the Jupyter Notebooks for the Project](#How-to-Run-the-Jupyter-Notebooks-for-the-Project-(Kaggle‑Supported))
 * [Pipeline](#pipeline)
 * [Results Gallery](#results-gallery)
 * [Design Principles & Methodology](#design-principles--methodology)
