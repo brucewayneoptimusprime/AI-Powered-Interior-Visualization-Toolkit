@@ -166,12 +166,6 @@ Final composites are written to `output_images/`. Filenames encode room and rug 
       <sub>rug1.jpg</sub>
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <img src="Input_Images/rug3.jpg" width="100%" alt="rug3.jpg"><br>
-      <sub>rug3.jpg</sub>
-    </td>
-    <td align="center">
       <!-- Add more inputs here: copy a <td> block and change src/label -->
     </td>
     <td align="center">
