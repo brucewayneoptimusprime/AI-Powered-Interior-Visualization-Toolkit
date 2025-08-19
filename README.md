@@ -7,7 +7,7 @@ Segmentation‑aware rug insertion with perspective correction, soft‑edge blen
 ## Contents
 
 * [Overview](#overview)
-* [Why This Is Hard](#why-this-is-hard)
+* [Challenges](#Challenges)
 * [Repository Structure](#repository-structure)
 * [Quickstart (Kaggle‑Friendly)](#quickstart-kagglefriendly)
 * [Pipeline](#pipeline)
@@ -37,7 +37,7 @@ The three images above summarize the workflow: the above 100 segmentation masks 
 
 ---
 
-## Why This Is Hard
+## Challenges
 
 Compositing a rug into a room photo involves multiple technical hurdles:
 
