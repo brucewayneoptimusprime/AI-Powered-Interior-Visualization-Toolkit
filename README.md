@@ -183,15 +183,31 @@ Final composites are written to `output_images/`. Filenames encode room and rug 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="output_images/DiningRoom1_result.jpg" width="100%" alt="DiningRoom1_result"><br>
+      <img src="output_images/Colour Harmonized.png" width="100%" alt="DiningRoom1_result"><br>
       <sub>DiningRoom1_result.jpg</sub>
     </td>
     <td align="center" width="33%">
-      <img src="output_images/LivingRoom1_result.jpg" width="100%" alt="LivingRoom1_result"><br>
+      <img src="output_images/Initial Fit.png" width="100%" alt="LivingRoom1_result"><br>
       <sub>LivingRoom1_result.jpg</sub>
     </td>
     <td align="center" width="33%">
-      <!-- Add more outputs here -->
+      <img src="output_images/Initial Fit.png" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="output_images/Room and rug.png" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="output_images/SAM Segmentation.png" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    <td align="center" width="33%">
+      <img src="output_images/Segmented Room.png" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    <td align="center" width="33%">
+      <img src="output_images/segment mask IDs.png" width="100%" alt="LivingRoom1_result"><br>
+      <sub>LivingRoom1_result.jpg</sub>
+    </td>
     </td>
   </tr>
 </table>
